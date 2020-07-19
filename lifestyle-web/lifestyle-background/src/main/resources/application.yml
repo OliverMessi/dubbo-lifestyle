@@ -1,0 +1,8 @@
+dubbo:
+  application:
+    name: background
+  registry:
+    protocol: zookeeper
+    address: 192.168.137.89:2181
+server:
+  port: 9090

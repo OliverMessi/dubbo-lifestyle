@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lifestyle-background" />
+        <module name="lifestyle-common" />
+        <module name="lifestyle-entity" />
+        <module name="lifestyle-mapper" />
+        <module name="lifestyle-product-api" />
+        <module name="lifestyle-product-service" />
+        <module name="lifestyle-service" />
+        <module name="lifestyle-web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

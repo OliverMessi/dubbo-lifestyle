@@ -1,5 +1,7 @@
 package com.wdm.common.base;
 
+import com.github.pagehelper.PageInfo;
+
 import java.util.List;
 
 /**
@@ -24,5 +26,5 @@ public interface IBaseService<T> {
 
     public List<T> list();
 
-//    public PageInfo<T> page(Integer pageIndex, Integer pageSize);
+    public PageInfo<T> page(Integer pageIndex, Integer pageSize);
 }
